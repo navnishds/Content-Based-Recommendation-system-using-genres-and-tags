@@ -1,4 +1,4 @@
-#Content Based Recommendation system using genres and tags
+# Content Based Recommendation system using genres and tags
 
 Course: CSE 6363 - Machine Learning
 
