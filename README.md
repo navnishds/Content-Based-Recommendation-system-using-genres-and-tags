@@ -1,4 +1,4 @@
-#Content Based Recommendation system using genres and tags#
+#Content Based Recommendation system using genres and tags
 Course: CSE 6363 - Machine Learning
 
 **Content-based filtering** approaches uses a series of discrete characteristics of an item in order to recommend additional items with similar properties. Content-based filtering methods are totally based on a description of the item and a profile of the user’s preferences. It recommends items based on user’s past preferences.
