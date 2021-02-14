@@ -15,6 +15,6 @@ Files included: dataPreprocessing.py, recommend.py
 3. recommend.py - Program to recommend movies based on previous rating
 
 Steps:
-    1. Open and Run program -> Enter command - python3 recommend.py
-    2. Enter user id
-    3. Displays top 20 recommendation for the user
+1. Open and Run program -> Enter command - python3 recommend.py
+2. Enter user id
+3. Displays top 20 recommendation for the user
