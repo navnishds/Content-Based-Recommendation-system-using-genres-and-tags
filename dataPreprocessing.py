@@ -28,7 +28,7 @@ class preProcessing():
         self.ratingDataFrame.drop('timestamp', axis=1, inplace=True)
 
     # Select tag whose relevance score is greater than 0.80
-    def selectgenomeTags(self):
+    def selectGenomeTags(self):
         gs = self.genomeScoreDataFrame[self.genomeScoreDataFrame['relevance'] > 0.80]
         tags_scores = pd.merge(self.genomeTagDataFrame, gs, on=['tagId'])
         return(tags_scores.sort_values(['movieId'], ascending=True))
@@ -149,7 +149,7 @@ if __name__=="__main__":
     # print("Number of rows in data set before data cleaning and pre processing")
     # data.numberOfRows()
     data.removeRowsWithBlankValues()
-    newGenomeTags = data.selectgenomeTags()
+    newGenomeTags = data.selectGenomeTags()
     cleanedGenomeTags = data.selectTags(newGenomeTags)
     newUserTags = data.selectUserTags()
     cleanedUserTags = data.selectTags(newUserTags)

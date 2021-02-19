@@ -11,7 +11,7 @@ class recommend():
         # Retrieve ratings of user
         movies_rated = rating.loc[rating['userId'] == user]
         if movies_rated.empty:
-            print("User does not exists. Please enter different user.")
+            print("User does not exist. Please enter different user.")
             return
         movies_rated = movies_rated[['movieId', 'rating']]
 
